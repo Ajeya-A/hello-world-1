@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-<h2>Welcome To GFG</h2>
 <form>
-	
-
-<p>
-	<label>Username : <input type="text" /></label>
-	</p>
-
-	
-
-<p>
-	<label>Password : <input type="password" /></label>
-	</p>
-
-	
-
-<p>
-	<button type="submit">Submit</button>
-	</p>
-
-
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
 </form>
-</body>
-</html>
